@@ -1,0 +1,58 @@
+ Volume in drive C is OS
+ Volume Serial Number is B2C4-5688
+
+ Directory of C:\dev\centennial_college\ui-COMP238\OneCommunity\webapp
+
+2023-04-14  09:13 PM    <DIR>          .
+2023-04-14  09:13 PM    <DIR>          ..
+2023-04-14  08:42 PM               381 .gitignore
+2023-04-14  08:42 PM    <DIR>          .history
+2023-04-14  09:10 PM    <DIR>          app
+2023-04-14  09:13 PM                 0 diroutput.txt
+2023-04-14  09:12 PM    <DIR>          node_modules
+2023-04-14  09:12 PM           603,997 package-lock.json
+2023-04-14  09:12 PM             1,139 package.json
+2023-04-14  09:10 PM    <DIR>          public
+2023-04-14  08:36 PM               751 webpack.config.js
+               5 File(s)        606,268 bytes
+
+ 
+ Directory of C:\dev\centennial_college\ui-COMP238\OneCommunity\webapp\app
+
+2023-04-14  09:10 PM    <DIR>          .
+2023-04-14  09:10 PM    <DIR>          ..
+2023-04-14  09:04 PM    <DIR>          components
+2023-04-14  09:04 PM               436 Main.js
+               1 File(s)            436 bytes
+
+ Directory of C:\dev\centennial_college\ui-COMP238\OneCommunity\webapp\app\components
+
+2023-04-14  09:04 PM    <DIR>          .
+2023-04-14  09:04 PM    <DIR>          ..
+2023-04-14  09:04 PM               262 Container.js
+2023-04-14  09:08 PM             1,340 HomeGuest.js
+2023-04-14  08:47 PM                 0 HomeUser.js
+2023-04-14  08:49 PM               454 Page.js
+2023-04-14  08:59 PM             1,785 Register.js
+               5 File(s)          3,841 bytes
+
+
+
+ Directory of C:\dev\centennial_college\ui-COMP238\OneCommunity\webapp\public
+
+2023-04-14  09:10 PM    <DIR>          .
+2023-04-14  09:10 PM    <DIR>          ..
+2023-04-14  09:07 PM    <DIR>          images
+2023-04-14  08:57 PM             1,096 index.html
+               1 File(s)          1,096 bytes
+
+ Directory of C:\dev\centennial_college\ui-COMP238\OneCommunity\webapp\public\images
+
+2023-04-14  09:07 PM    <DIR>          .
+2023-04-14  09:07 PM    <DIR>          ..
+2023-04-14  08:25 PM         1,460,713 girl-boy-talking.png
+               1 File(s)      1,460,713 bytes
+
+     Total Files Listed:
+           21743 File(s)    159,664,223 bytes
+            7655 Dir(s)  220,426,199,040 bytes free
