@@ -5,3 +5,34 @@
   .text-center {
     text-align: center;
   }
+
+.input {
+  width: 700;
+  margin: auto;
+}
+
+#recordButton {
+  margin: auto;
+  width: 500px;
+}
+.labelForm {
+  text-align: left;
+  padding-right: 10px;
+}
+.paragraph {
+  font: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+  padding: 20px;
+} 
+#mainBody {
+  border: 5px;
+  border-color: rgb(93, 93, 116);
+  border-style: outset;
+  border-radius: 10px;
+  width: 700px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgb(194, 194, 195);
+}
