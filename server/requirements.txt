@@ -1,6 +1,8 @@
 flask
 flask-login
 Flask-WTF
-pip install email_validator
-pip install Flask-SQLAlchemy
+email_validator
+Flask-SQLAlchemy
 flask-cors
+jsonify
+PyJWT
