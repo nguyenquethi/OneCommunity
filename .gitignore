@@ -34,3 +34,7 @@ first_react_app/
 .course/
 db.env
 package-lock.json
+audio/
+*.mp3
+*.wav
+*.mp4
