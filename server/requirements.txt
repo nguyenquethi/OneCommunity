@@ -1,0 +1,8 @@
+flask
+flask-login
+Flask-WTF
+email_validator
+Flask-SQLAlchemy
+flask-cors
+jsonify
+PyJWT
