@@ -1,10 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+import HomeGuest from "./components/HomeGuest";
+import Register from "./components/Register";
+
 function Main() {
   return (
     <>
-      <h1>Hello World</h1>
+      <div className="container py-5">
+        <h1 className="display-3">Translate app</h1>
+      </div>
+      <HomeGuest />
     </>
   )
 }
