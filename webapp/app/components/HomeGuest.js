@@ -1,17 +1,16 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import Page from "./Page";
 import Register from "./Register";
+import Login from "./Login";
 
 function HomeGuest() {
-
   const handleButtonClick = () => {
     const registerComponent = document.querySelector("#register");
     if (registerComponent) {
       registerComponent.scrollIntoView({ behavior: "smooth" });
     }
   };
-
 
   return (
     <>
@@ -39,12 +38,22 @@ function HomeGuest() {
               where you are or who you're speaking to. It's simple, fast, and
               accurate - try it out today!
             </p>
-            <button type="button" className="btn btn-info shadow-hover text-center" onClick={handleButtonClick}>
+            <button
+              type="button"
+              className="btn btn-info shadow-hover text-center"
+              onClick={handleButtonClick}
+            >
               Try it now!
             </button>
+            <Link
+              to="/register"
+              className="btn btn-secondary shadow-hover ms-2"
+            >
+              Register
+            </Link>
           </div>
+          <Login />
         </div>
-        <Register />
       </Page>
     </>
   );
