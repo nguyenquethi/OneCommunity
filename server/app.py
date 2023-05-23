@@ -128,11 +128,11 @@ def translate():
             audio_file.save(temp_file.name)
 
             temp_file.close()  
-            #transcription = whisper.transcribe(temp_file.name)
+            transcription = whisper.transcribe(temp_file.name)
             print("test")
             os.remove(temp_file.name)
-            #return jsonify({"transcription": transcription}), 200
-            return jsonify({"transcription": "test"}), 200
+            return jsonify({"transcription": transcription}), 200
+            #return jsonify({"transcription": "test"}), 200
     else:
         return jsonify({"error": "No audio file provided"}), 400
 
